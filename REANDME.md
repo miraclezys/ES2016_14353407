@@ -57,18 +57,22 @@ $   sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 
 #### **编译systemc**
 1. 解压后进入systemc-2.3.1的目录下
+
     ```
     $	cd systemc-2.3.1
     ```
 2. 新建一个临时文件夹objdir
+
     ```
     $	mkdir objdir
     ```
 3. 进入该文件夹objdir
+
     ```
     $	cd objdir
     ```
 4. 运行configure(能根据系统的环境设置一下参数，用于编译)
+
     ```
     $	../configure CXX=g++ --disable-async-updates
     ```
@@ -76,39 +80,50 @@ $   sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
     ![图为运行了configure之后的截图](https://raw.githubusercontent.com/miraclezys/ES2016_14353407/master/img/1.jpg)
 
 5. 编译
+
     ```
     $	sudo make install
     ```
 6. 编译完后文件目录如下图
+
     ```
     $   cd ..
     $   ls
     ```
+
     ![enter description here](https://raw.githubusercontent.com/miraclezys/ES2016_14353407/master/img/2.jpg)
 7. 记录当前的工作路径(记录下来，待会需要使用)
+
     ```
     $	pwd
     ```
+
     ![enter description here](https://raw.githubusercontent.com/miraclezys/ES2016_14353407/master/img/3.jpg)
-   	例如我的当前路径是：home/shushu/systemc-2.3.1
+
+    例如我的当前路径是：home/shushu/systemc-2.3.1
 
 #### **编译dol**
 1. 进入刚刚的dol文件夹
+
     ```
     $	cd ../dol
     ```
 2. 修改build_zip.xml文件
     找到下面这段话，也是说上面编译的systemc位置在哪里
+
     ```
     <property name="systemc.inc" value="YYY/include"/>
     <property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"/>
     ```
+
     把YYY改成上一步pwd的结果（注意，对于64位系统的机器，需要把lib-linux改成lib-linux64）
 3. 然后是编译
+
     ```
     $	ant -f build_zip.xml all
     ```
 4. 若成功会显示build successful
+
      ![若成功会显示build successful](https://raw.githubusercontent.com/miraclezys/ES2016_14353407/master/img/4.jpg)
 
 #### **运行第一个例子**
