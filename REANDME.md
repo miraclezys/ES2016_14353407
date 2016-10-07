@@ -33,21 +33,24 @@ $	sudo apt-get install unzip
 ```
 
 #### **下载需要的软件**
-    ```
-    $   sudo wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.1.tgz
-    $   sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
-    ```
+```
+$   sudo wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.1.tgz
+$   sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
+```
 
 #### **解压文件**
 1. 新建名为dol的文件夹
+
     ```
     $	mkdir dol
     ```
 2. 将dolethz.zip解压到 dol文件夹中
+
     ```
     $	unzip dol_ethz.zip -d dol
     ```
 3. 解压systemc
+
     ```
     $	tar -zxvf systemc-2.3.1.tgz
     ```
@@ -110,14 +113,17 @@ $	sudo apt-get install unzip
 
 #### **运行第一个例子**
 1. 进入build/bin/mian路径下
+
     ```
     $	cd build/bin/main
     ```
 2. 然后运行第一个例子
+
     ```
     $	ant -f runexample.xml -Dnumber=1
     ```
 3. 成功结果如图
+
     ![成功结果](https://raw.githubusercontent.com/miraclezys/ES2016_14353407/master/img/5.jpg)
 
 #### **实验心得**
