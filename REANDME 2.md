@@ -80,7 +80,7 @@ $   sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 
 	图为运行了configure之后的截图:
 
-	![图为运行了configure之后的截图](/home/shushu/ES2016_14353407/img/1.jpg)
+	![图为运行了configure之后的截图](ES2016_14353407/img/1.jpg)
 
 5. 编译
 
@@ -94,7 +94,7 @@ $   sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
     $   ls
     ```
 	编译完后文件目录如下:
-    ![enter description here](/home/shushu/ES2016_14353407/img/2.jpg)
+    ![enter description here](img/2.jpg)
 7. 记录当前的工作路径(记录下来，待会需要使用)
 
     ```
