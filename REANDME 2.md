@@ -80,7 +80,7 @@ $   sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 
 	图为运行了configure之后的截图:
 
-	![图为运行了configure之后的截图](ES2016_14353407/img/1.jpg)
+	![图为运行了configure之后的截图](img/1.jpg)
 
 5. 编译
 
@@ -101,7 +101,7 @@ $   sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
     $	pwd
     ```
 	例如我的当前路径是：home/shushu/systemc-2.3.1
-    ![enter description here](https://raw.githubusercontent.com/miraclezys/ES2016_14353407/master/img/3.jpg)
+    ![enter description here](img/3.jpg)
 
 
 #### **编译dol**
@@ -126,7 +126,7 @@ $   sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
     ```
 4. 若成功会显示build successful
 
-     ![若成功会显示build successful](https://raw.githubusercontent.com/miraclezys/ES2016_14353407/master/img/4.jpg)
+     ![若成功会显示build successful](img/4.jpg)
 
 #### **运行第一个例子**
 1. 进入build/bin/mian路径下
@@ -141,7 +141,7 @@ $   sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
     ```
 3. 成功结果如图
 
-    ![成功结果](https://raw.githubusercontent.com/miraclezys/ES2016_14353407/master/img/5.jpg)
+    ![成功结果](img/5.jpg)
 
 #### **实验心得**
 首先，熟悉了markdown的语法，然后对dol开发环境的配置过程有了进一步的印象加深。写这份报告主要的困难如何插入图片，我的解决办法是先将图片上传到GitHub的仓库中，生成链接就能直接用于markdowm的图片插入了
