@@ -148,10 +148,12 @@ $   sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 #### **实验心得**
 首先，熟悉了markdown的语法，然后对dol开发环境的配置过程有了进一步的印象加深。写这份报告主要的困难如何插入图片，在markdown中插入图片有两种解决办法：
 * 将需要使用的图片放到git仓库中，然后将图片发布到github上。然后访问github仓库，得到需要访问图片的链接。在markdown中插入图片的语法是：
+
     ```
     ![描述](图片链接)
     ```
 * 将需要使用的图片放到git仓库，然后将图片和.md文件一起发布到github上。在.md文件中插入图片的语法是:
+
     ```
     ![描述](相对路径)
 	```
