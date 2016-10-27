@@ -3,7 +3,6 @@ title: Lab03:DOL实例分析
 grammar_cjkRuby: true
 ---
 # Lab03:DOL实例分析
----
 
 ### **修改example1，输出3次方**
 > tips:修改square.c
@@ -11,11 +10,11 @@ grammar_cjkRuby: true
 1. 修改部分
     因为square.c定义了square需要做什么。原本在该文件中定义了`i=i*i`，即运算平方。因为现在需要输入3次方，所以只需要将`i=i*i`修改为`i=i*i*i`，就能输出3次方了
 
-    ![enter description here](../img/1.jpg)
+    ![enter description here](../assignment/img/1.jpg)
 
 2. 修改完的*.dot截图
 
-    ![enter description here](../img/2.jpg)
+    ![enter description here](../assignment/img/2.jpg)
 
 3. 运行结果
     ```
@@ -24,7 +23,7 @@ grammar_cjkRuby: true
     ```
     可以看到下图运行的结果是三次方：
 
-    ![enter description here](../img/3.jpg)
+    ![enter description here](../assignment/img/3.jpg)
 
 
 ---
@@ -35,11 +34,11 @@ grammar_cjkRuby: true
 1. 修改部分
     打开example.xml，我们可以看到``<variable value="3" name="N"/>``定义了square的数量是3，所以我们只需要将该语句的`value`值修改为2，就可以了
 
-    ![enter description here](../img/4.jpg)
+    ![enter description here](../assignment/img/4.jpg)
 
 2. 修改完的*.dot截图
 
-    ![enter description here](../img/5.jpg)
+    ![enter description here](../assignment/img/5.jpg)
 
 3. 运行结果
     ```
@@ -48,7 +47,7 @@ grammar_cjkRuby: true
     ```
     可以看到下图运行的结果是四次方：
 
-    ![enter description here](https://raw.githubusercontent.com/miraclezys/ES2016_14353407/master/assignment/img/6.jpg)
+    ![enter description here](../assignment/img/6.jpg)
 
 ---
 
